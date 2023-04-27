@@ -11,12 +11,12 @@ const Navbar = () => {
     <Link class="navbar-brand text-white" to="/">
         NEWS._.Era<i class="fa-thin fa-newspaper"></i>
     </Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <button style={{color:"white"}} class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon" style={{color:"white"}}></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li className="nav-item">
+        <li className="nav-item" style={{color:"yellowgreen"}}>
           <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
         </li>
 
