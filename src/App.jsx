@@ -12,11 +12,15 @@ import FetchData from './components/FetchData';
 
 const App = () => {
   return (
+
       <>
+      {/* <Home /> */}
       <Router>
       <Navbar />
+      
           <Routes>
-              <Route exact path="/" element={<Home />} />
+              
+              <Route exact path="" element={ <Home /> } />
               <Route exact path="/general" element={<FetchData cat="general" />} />
               <Route  path="/business" element={<FetchData cat="business" />} />
               <Route  path="/entertainment" element={<FetchData cat="entertainment" />} />

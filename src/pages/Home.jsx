@@ -5,10 +5,10 @@ import FetchData from "../components/FetchData";
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Hero />
             <FetchData />
-        </div>
+        </>
     )
 }
 

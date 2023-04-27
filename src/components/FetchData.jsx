@@ -14,10 +14,11 @@ const FetchData = ({cat}) => {
     };
     useEffect(()=>{
         fetchdata();
-    },[cat]);
+    });
     
     
     return (
+        <>
         <div className="container my-4">
             <h3><u>TOP HEADLINES</u></h3>
             <div style={{fontFamily:"monospace",minHeight:"100vh"}} className="container d-flex justify-content-center align-items-center flex-column my-3">
@@ -36,6 +37,7 @@ const FetchData = ({cat}) => {
             </div>
 
             </div>
+            </>
     )
 }
 
