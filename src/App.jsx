@@ -17,9 +17,9 @@ const App = () => {
       {/* <Home /> */}
       <Router>
       <Navbar />
-      
+      <Home />  
           <Routes>
-              
+              {/* <Home/> */}
               <Route exact path="" element={ <Home /> } />
               <Route exact path="/general" element={<FetchData cat="general" />} />
               <Route  path="/business" element={<FetchData cat="business" />} />
